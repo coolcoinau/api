@@ -80,7 +80,7 @@ $sign = hash_hmac('sha256', $dataStr, md5($data["access_key"]));
 
 
 
-##2. 市场行情-单个symbol行情(Ticker)
+### 2. 市场行情-单个symbol行情(Ticker)
 
 - 请求url：   /market/ticker
 
@@ -115,7 +115,7 @@ $sign = hash_hmac('sha256', $dataStr, md5($data["access_key"]));
 
 
 
-##3. 市场行情-深度
+### 3. 市场行情-深度
 
 - 请求url：   /market/depth
 
@@ -186,7 +186,7 @@ $sign = hash_hmac('sha256', $dataStr, md5($data["access_key"]));
 
 
 
-##4. 市场行情-批量获取最近的交易记录
+### 4. 市场行情-批量获取最近的交易记录
 
 - 请求url：   /market/historyTrade
 
@@ -235,7 +235,7 @@ $sign = hash_hmac('sha256', $dataStr, md5($data["access_key"]));
 
  
 
-##5. 市场行情-支持的所有交易
+### 5. 市场行情-支持的所有交易
 
 - 请求url：   /market/symbols
 
@@ -271,7 +271,7 @@ $sign = hash_hmac('sha256', $dataStr, md5($data["access_key"]));
 
  
 
-##6. 账户信息-指定账户的余额
+### 6. 账户信息-指定账户的余额
 
  - 请求url：   /account/balance
   
@@ -384,7 +384,7 @@ $sign = hash_hmac('sha256', $dataStr, md5($data["access_key"]));
 
 
 
-##7. 交易-下单
+### 7. 交易-下单
 
  - 请求url：   /order/place
  - 请求方式：POST
@@ -417,7 +417,7 @@ $sign = hash_hmac('sha256', $dataStr, md5($data["access_key"]));
 
    
 
-##8. 交易-撤销订单
+### 8. 交易-撤销订单
 
 - 请求url：   /order/cancel
 
@@ -449,7 +449,7 @@ $sign = hash_hmac('sha256', $dataStr, md5($data["access_key"]));
 
 
 
-##9. 交易-批量撤销订单
+### 9. 交易-批量撤销订单
 
 - 请求url：  /order/batchcancel
 
@@ -490,7 +490,7 @@ $sign = hash_hmac('sha256', $dataStr, md5($data["access_key"]));
 
 
 
-##11. 交易-查询某个订单详情
+### 10. 交易-查询某个订单详情
 
  - 请求url：   /order/detail
   
@@ -528,7 +528,7 @@ $sign = hash_hmac('sha256', $dataStr, md5($data["access_key"]));
 
 
 
-##12. 交易-查询用户当前未成交订单
+### 11. 交易-查询用户当前未成交订单
 
 - 请求url：   /order/openOrders
 
@@ -579,7 +579,7 @@ $sign = hash_hmac('sha256', $dataStr, md5($data["access_key"]));
 
 
 
-##13. 交易-查询用户历史成交
+### 12. 交易-查询用户历史成交
 
 - 请求url：   /order/orders
 
@@ -628,7 +628,7 @@ $sign = hash_hmac('sha256', $dataStr, md5($data["access_key"]));
 
 
 
-##16. 账户-充提记录
+### 13. 账户-充提记录
 
 
  - 请求url：  /account/depositWithdraw
