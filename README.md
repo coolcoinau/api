@@ -30,11 +30,11 @@ $sign = hash_hmac('sha256', $dataStr, md5($data["access_key"]));
 
 ​		
 
-##功能模块
+## 功能模块
 
 
 
-##1. 市场行情-全部symbol的交易行情
+### 1. 市场行情-全部symbol的交易行情
 
 - 请求url：   /market/tickers
 
